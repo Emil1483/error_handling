@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "error_handling",
+            "cwd": ".",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--no-sound-null-safety"
+            ]
+        },
+    ]
+}
