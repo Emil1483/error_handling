@@ -1,6 +1,5 @@
+import 'package:error_handling/example3.dart';
 import 'package:flutter/material.dart';
-
-import 'example2.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Example2(),
+      home: Example3(),
     );
   }
 }
