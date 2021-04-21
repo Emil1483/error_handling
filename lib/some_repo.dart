@@ -11,7 +11,7 @@ class SomeRepo {
     return 'We got the data';
   }
 
-  final doSomething = MustHandleErrors0(() async {
+  final doSomething = MustHandleErrorsNoOutput1(() async {
     print('bruh');
     if (Random().nextDouble() > 0.5) throw Failure('oops lol');
   });

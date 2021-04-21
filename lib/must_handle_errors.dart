@@ -8,8 +8,8 @@ abstract class MustHandleErrors<T> {
   MustHandleErrors(this.function);
 }
 
-class MustHandleErrors0 extends MustHandleErrors {
-  MustHandleErrors0(FutureOr Function() f) : super(f);
+class MustHandleErrorsNoOutput1 extends MustHandleErrors {
+  MustHandleErrorsNoOutput1(FutureOr Function() f) : super(f);
 
   Future<void> run({required Function(Failure) onFailure, required Function() onSuccess}) async {
     return await ErrorHandler.handleErrors(
